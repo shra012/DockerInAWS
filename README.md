@@ -1,6 +1,8 @@
 # DockerInAWS
 
-### Steps to get the instance assigned name in your AWS EC2 shell.
+## Basic AWS linux box.
+
+#### 1. Steps to get the instance assigned name in your AWS EC2 shell.
 
 1. Create a user for AWS from [IAMUSER](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
 2. Save your ```AWS Access Key ID``` and ```AWS Secret Access Key``` for you IAMUSER.
