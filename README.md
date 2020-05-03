@@ -4,7 +4,7 @@
 
 1. Create a user for AWS from [IAMUSER](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
 2. Save your ```AWS Access Key ID``` and ```AWS Secret Access Key``` for you IAMUSER.
-3. ssh into AWS EC2 and add the below to your __.bash_profile__ of __ec2_user__.
+3. ssh into AWS EC2 and add the below to your __~/.bash_profile__ of __ec2_user__.
  - __As per AWS docs You must specify an AWS Region when using the AWS CLI, either explicitly or by setting a default Region. For a list of the available Regions, see [Regions and Endpoints](https://docs.aws.amazon.com/general/latest/gr/rande.html).__
 ```
   export REGION=ap-south-1
