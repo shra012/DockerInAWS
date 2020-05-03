@@ -11,4 +11,4 @@
   export AWS_INSTANCE_ID=`curl -s http://169.254.169.254/latest/meta-data/instance-id`
   export EC2_NAME=$(aws ec2 describe-tags --region $REGION --filters "Name=resource-id,Values=$AWS_INSTANCE_ID" "Name=key,Values=Name" --output text | cut -f5)
 ```
-4. Reload the bash profile with ```source .bash_profile```
+4. Reload the bash profile with ```source ~/.bash_profile```
